@@ -1,6 +1,6 @@
-// Ara fem servir addEventListener en lloc d'onclick a l'HTML
-
-document.addEventListener("DOMContentLoaded", function() {
+// En aquest cas usem la crida:
+//  <script src="js/forms.js" defer></script>
+// per aconseguir que es carreguin les funcions quan el DOM està carregat.
 
     // Exercici 1: suma de dos números
     function sumar() {
@@ -19,5 +19,3 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("resultat-text").textContent =
             "El text té " + longitud + " caràcters.";
     }
-
-});
